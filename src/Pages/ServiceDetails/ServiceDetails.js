@@ -17,9 +17,9 @@ const ServiceDetails = () => {
     return (
         <div>
             <h2>Our Service Details Page</h2>
-            <h3>Image: {serviceItem?.img}</h3>
-            <h3>Service Name: {serviceItem?.name}</h3>
-            <h3>Description: {serviceItem?.description}</h3>
+            <h3>Image: {serviceItem[0]?.img}</h3>
+            <h3>Service Name: {serviceItem[0]?.name}</h3>
+            <h3>Description: {serviceItem[0]?.description}</h3>
         </div>
     );
 };
