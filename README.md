@@ -1,6 +1,26 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Infant Endeavor](https://github.com/facebook/create-react-app).
+
+Description:
+
+Making a positive impression with parents on your child care website is more important than ever.
+
+In this article, I’ll tell you everything you’ll need to know to build a professional-looking daycare website that will help you enroll more families. As an owner of several day-cares and a former website designer, I’ve spent a good amount of time developing and optimizing child care websites, so you’ve come to the right place.
+
+Read on to learn how to get started, what pages to include on your child care website, and most importantly — what parents want to see.
+
+Features & Functionality of this project:
+      
+      i.Easy to use front-end system.
+
+      ii.Google Sign In method using firebase.
+
+      iii.Using Context API.
+
+      iv.Using Private Route.
+
+      v.No need of reloading any page.
 
 ## Available Scripts
 

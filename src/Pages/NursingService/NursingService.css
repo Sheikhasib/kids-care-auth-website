@@ -1,0 +1,9 @@
+.service{
+    background-color: #01eeff52;
+    border-radius: 20px;
+    margin: 10px;
+}
+.img-container{
+    height: 250px;
+    width: 350px;
+}
