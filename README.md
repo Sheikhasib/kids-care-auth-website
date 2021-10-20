@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Infant Endeavor](https://infant-endeavor.netlify.app/).
+This project was bootstrapped with [Infant Endeavor](https://infant-endeavor.netlify.app).
 
 Description:
 

@@ -2,6 +2,7 @@ import { getAuth, signInWithPopup, GoogleAuthProvider, createUserWithEmailAndPas
     sendPasswordResetEmail,
     updateProfile, signOut, onAuthStateChanged } from "firebase/auth";
 import { useEffect, useState } from "react";
+import { useHistory, useLocation } from "react-router";
 import initializeAuthentication from "../Pages/Login/Firebase/firebase.init";
 
 initializeAuthentication();
@@ -14,6 +15,9 @@ const useFirebase = () => {
     const [error, setError] = useState();
     const [isLogin, setIsLogin] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
+    const location = useLocation();
+  const history = useHistory();
+  const redirect_url = location.state?.from || "/home";
 
     const auth = getAuth();
 
@@ -64,6 +68,7 @@ const useFirebase = () => {
           .then((result) => {
             const user = result.user;
             console.log(user);
+            history.push(redirect_url);
             setError("");
           })
           .catch((error) => {
