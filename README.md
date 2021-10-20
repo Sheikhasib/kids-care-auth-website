@@ -14,7 +14,7 @@ Features & Functionality of this project:
       
       i.Easy to use front-end system.
 
-      ii.Google Sign In method using firebase.
+      ii.Google, Email&Password Sign In method using firebase.
 
       iii.Using Context API.
 
